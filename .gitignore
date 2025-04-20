@@ -1,0 +1,54 @@
+# ========================
+# Swift Package Defaults
+# ========================
+.build/
+.swiftpm/
+.swifttmp/
+DerivedData/
+.idea/
+.vscode/
+*.xcworkspace/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcuserdatad/
+*.xcodeproj/xcshareddata/
+
+# ========================
+# Xcode / macOS
+# ========================
+.DS_Store
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+
+# ========================
+# Logs / Temporary
+# ========================
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ========================
+# Playgrounds
+# ========================
+timeline.xctimeline
+playground.xcworkspace
+
+# ========================
+# Build Artifacts
+# ========================
+*.ipa
+*.app
+*.dSYM
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# ========================
+# SwiftPM Auto-generated
+# ========================
+Package.resolved
+

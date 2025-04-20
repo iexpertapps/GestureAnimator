@@ -11,9 +11,32 @@
 		5440977C2DB2D495003E69E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440977B2DB2D495003E69E7 /* ContentView.swift */; };
 		5440977E2DB2D497003E69E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5440977D2DB2D497003E69E7 /* Assets.xcassets */; };
 		544097812DB2D497003E69E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544097802DB2D497003E69E7 /* Preview Assets.xcassets */; };
-		5440978B2DB2D497003E69E7 /* GestureAnimatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440978A2DB2D497003E69E7 /* GestureAnimatorTests.swift */; };
-		544097952DB2D497003E69E7 /* GestureAnimatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097942DB2D497003E69E7 /* GestureAnimatorUITests.swift */; };
-		544097972DB2D497003E69E7 /* GestureAnimatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097962DB2D497003E69E7 /* GestureAnimatorUITestsLaunchTests.swift */; };
+		544097AA2DB2D553003E69E7 /* GestureAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097A92DB2D553003E69E7 /* GestureAnimatable.swift */; };
+		544097BB2DB2D623003E69E7 /* ZoomEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097BA2DB2D623003E69E7 /* ZoomEffect.swift */; };
+		544097C02DB2D68E003E69E7 /* DragEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097BF2DB2D68E003E69E7 /* DragEffect.swift */; };
+		544097EB2DB347F3003E69E7 /* ZoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097EA2DB347F3003E69E7 /* ZoomViewModel.swift */; };
+		544097ED2DB348D9003E69E7 /* ZoomGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097EC2DB348D9003E69E7 /* ZoomGestureTests.swift */; };
+		544097EF2DB35753003E69E7 /* DragViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097EE2DB35753003E69E7 /* DragViewModel.swift */; };
+		544097F12DB35790003E69E7 /* DragGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097F02DB35790003E69E7 /* DragGestureTests.swift */; };
+		544097F32DB3581F003E69E7 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097F22DB3581F003E69E7 /* Package.swift */; };
+		544097F62DB358AE003E69E7 /* RotateEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097F52DB358AE003E69E7 /* RotateEffect.swift */; };
+		544097F82DB358CD003E69E7 /* RotateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097F72DB358CD003E69E7 /* RotateViewModel.swift */; };
+		544097FA2DB35910003E69E7 /* RotateGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097F92DB35910003E69E7 /* RotateGestureTests.swift */; };
+		544097FD2DB35A1B003E69E7 /* MorphEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097FC2DB35A1B003E69E7 /* MorphEffect.swift */; };
+		544097FF2DB35A4D003E69E7 /* MorphViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544097FE2DB35A4D003E69E7 /* MorphViewModel.swift */; };
+		544098012DB35A7E003E69E7 /* MorphGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544098002DB35A7E003E69E7 /* MorphGestureTests.swift */; };
+		544098042DB35AF1003E69E7 /* CustomPathEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544098032DB35AF1003E69E7 /* CustomPathEffect.swift */; };
+		544098072DB35B41003E69E7 /* CustomPathViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544098062DB35B41003E69E7 /* CustomPathViewModel.swift */; };
+		544098092DB35BDB003E69E7 /* CustomPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544098082DB35BDB003E69E7 /* CustomPathTests.swift */; };
+		5440980C2DB35C6D003E69E7 /* GestureGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440980B2DB35C6D003E69E7 /* GestureGalleryView.swift */; };
+		5440980E2DB3679C003E69E7 /* MorphDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440980D2DB3679B003E69E7 /* MorphDemoView.swift */; };
+		544098102DB368E7003E69E7 /* GestureAnimationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440980F2DB368E7003E69E7 /* GestureAnimationState.swift */; };
+		544098152DB36B22003E69E7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 544098142DB36B22003E69E7 /* README.md */; };
+		544098182DB36CF5003E69E7 /* ZoomViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544098172DB36CF5003E69E7 /* ZoomViewModelTests.swift */; };
+		5440981A2DB36D05003E69E7 /* DragViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544098192DB36D05003E69E7 /* DragViewModelTests.swift */; };
+		5440981C2DB36D17003E69E7 /* RotateViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440981B2DB36D17003E69E7 /* RotateViewModelTests.swift */; };
+		5440981E2DB36D2F003E69E7 /* MorphViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440981D2DB36D2F003E69E7 /* MorphViewModelTests.swift */; };
+		544098202DB36D43003E69E7 /* CustomPathViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440981F2DB36D43003E69E7 /* CustomPathViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +63,33 @@
 		5440977D2DB2D497003E69E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		544097802DB2D497003E69E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		544097862DB2D497003E69E7 /* GestureAnimatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureAnimatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5440978A2DB2D497003E69E7 /* GestureAnimatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimatorTests.swift; sourceTree = "<group>"; };
 		544097902DB2D497003E69E7 /* GestureAnimatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureAnimatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		544097942DB2D497003E69E7 /* GestureAnimatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimatorUITests.swift; sourceTree = "<group>"; };
-		544097962DB2D497003E69E7 /* GestureAnimatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		544097A92DB2D553003E69E7 /* GestureAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimatable.swift; sourceTree = "<group>"; };
+		544097BA2DB2D623003E69E7 /* ZoomEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomEffect.swift; sourceTree = "<group>"; };
+		544097BF2DB2D68E003E69E7 /* DragEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragEffect.swift; sourceTree = "<group>"; };
+		544097EA2DB347F3003E69E7 /* ZoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewModel.swift; sourceTree = "<group>"; };
+		544097EC2DB348D9003E69E7 /* ZoomGestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomGestureTests.swift; sourceTree = "<group>"; };
+		544097EE2DB35753003E69E7 /* DragViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragViewModel.swift; sourceTree = "<group>"; };
+		544097F02DB35790003E69E7 /* DragGestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureTests.swift; sourceTree = "<group>"; };
+		544097F22DB3581F003E69E7 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		544097F52DB358AE003E69E7 /* RotateEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateEffect.swift; sourceTree = "<group>"; };
+		544097F72DB358CD003E69E7 /* RotateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateViewModel.swift; sourceTree = "<group>"; };
+		544097F92DB35910003E69E7 /* RotateGestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateGestureTests.swift; sourceTree = "<group>"; };
+		544097FC2DB35A1B003E69E7 /* MorphEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphEffect.swift; sourceTree = "<group>"; };
+		544097FE2DB35A4D003E69E7 /* MorphViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphViewModel.swift; sourceTree = "<group>"; };
+		544098002DB35A7E003E69E7 /* MorphGestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphGestureTests.swift; sourceTree = "<group>"; };
+		544098032DB35AF1003E69E7 /* CustomPathEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPathEffect.swift; sourceTree = "<group>"; };
+		544098062DB35B41003E69E7 /* CustomPathViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPathViewModel.swift; sourceTree = "<group>"; };
+		544098082DB35BDB003E69E7 /* CustomPathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPathTests.swift; sourceTree = "<group>"; };
+		5440980B2DB35C6D003E69E7 /* GestureGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureGalleryView.swift; sourceTree = "<group>"; };
+		5440980D2DB3679B003E69E7 /* MorphDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphDemoView.swift; sourceTree = "<group>"; };
+		5440980F2DB368E7003E69E7 /* GestureAnimationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimationState.swift; sourceTree = "<group>"; };
+		544098142DB36B22003E69E7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		544098172DB36CF5003E69E7 /* ZoomViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewModelTests.swift; sourceTree = "<group>"; };
+		544098192DB36D05003E69E7 /* DragViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragViewModelTests.swift; sourceTree = "<group>"; };
+		5440981B2DB36D17003E69E7 /* RotateViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateViewModelTests.swift; sourceTree = "<group>"; };
+		5440981D2DB36D2F003E69E7 /* MorphViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphViewModelTests.swift; sourceTree = "<group>"; };
+		5440981F2DB36D43003E69E7 /* CustomPathViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPathViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				544097782DB2D495003E69E7 /* GestureAnimator */,
-				544097892DB2D497003E69E7 /* GestureAnimatorTests */,
-				544097932DB2D497003E69E7 /* GestureAnimatorUITests */,
 				544097772DB2D495003E69E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,10 +138,12 @@
 		544097782DB2D495003E69E7 /* GestureAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				544097792DB2D495003E69E7 /* GestureAnimatorApp.swift */,
-				5440977B2DB2D495003E69E7 /* ContentView.swift */,
+				544098142DB36B22003E69E7 /* README.md */,
+				544098212DB3701E003E69E7 /* Sources */,
 				5440977D2DB2D497003E69E7 /* Assets.xcassets */,
 				5440977F2DB2D497003E69E7 /* Preview Content */,
+				54E1FE342DB3744E00E10987 /* Tests */,
+				544097F22DB3581F003E69E7 /* Package.swift */,
 			);
 			path = GestureAnimator;
 			sourceTree = "<group>";
@@ -113,18 +159,113 @@
 		544097892DB2D497003E69E7 /* GestureAnimatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				5440978A2DB2D497003E69E7 /* GestureAnimatorTests.swift */,
+				544097F92DB35910003E69E7 /* RotateGestureTests.swift */,
+				544097EC2DB348D9003E69E7 /* ZoomGestureTests.swift */,
+				544097F02DB35790003E69E7 /* DragGestureTests.swift */,
+				544098002DB35A7E003E69E7 /* MorphGestureTests.swift */,
+				544098082DB35BDB003E69E7 /* CustomPathTests.swift */,
 			);
 			path = GestureAnimatorTests;
 			sourceTree = "<group>";
 		};
-		544097932DB2D497003E69E7 /* GestureAnimatorUITests */ = {
+		544097A32DB2D4C3003E69E7 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				544097942DB2D497003E69E7 /* GestureAnimatorUITests.swift */,
-				544097962DB2D497003E69E7 /* GestureAnimatorUITestsLaunchTests.swift */,
+				544097A92DB2D553003E69E7 /* GestureAnimatable.swift */,
+				5440980F2DB368E7003E69E7 /* GestureAnimationState.swift */,
+				544097A42DB2D4D9003E69E7 /* Effects */,
+				544098112DB36993003E69E7 /* ViewModels */,
 			);
-			path = GestureAnimatorUITests;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		544097A42DB2D4D9003E69E7 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				544097BA2DB2D623003E69E7 /* ZoomEffect.swift */,
+				544097BF2DB2D68E003E69E7 /* DragEffect.swift */,
+				544097F52DB358AE003E69E7 /* RotateEffect.swift */,
+				544097FC2DB35A1B003E69E7 /* MorphEffect.swift */,
+				544098032DB35AF1003E69E7 /* CustomPathEffect.swift */,
+				544097FB2DB35A09003E69E7 /* Morph */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+		544097CF2DB2D80A003E69E7 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				5440980A2DB35C63003E69E7 /* DemoApp */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		544097FB2DB35A09003E69E7 /* Morph */ = {
+			isa = PBXGroup;
+			children = (
+				5440980D2DB3679B003E69E7 /* MorphDemoView.swift */,
+			);
+			path = Morph;
+			sourceTree = "<group>";
+		};
+		5440980A2DB35C63003E69E7 /* DemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				544097792DB2D495003E69E7 /* GestureAnimatorApp.swift */,
+				5440980B2DB35C6D003E69E7 /* GestureGalleryView.swift */,
+			);
+			path = DemoApp;
+			sourceTree = "<group>";
+		};
+		544098112DB36993003E69E7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				544097EA2DB347F3003E69E7 /* ZoomViewModel.swift */,
+				544097EE2DB35753003E69E7 /* DragViewModel.swift */,
+				544097F72DB358CD003E69E7 /* RotateViewModel.swift */,
+				544097FE2DB35A4D003E69E7 /* MorphViewModel.swift */,
+				544098062DB35B41003E69E7 /* CustomPathViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		544098162DB36CDB003E69E7 /* GestureAnimatorInternalTests */ = {
+			isa = PBXGroup;
+			children = (
+				544098172DB36CF5003E69E7 /* ZoomViewModelTests.swift */,
+				544098192DB36D05003E69E7 /* DragViewModelTests.swift */,
+				5440981B2DB36D17003E69E7 /* RotateViewModelTests.swift */,
+				5440981D2DB36D2F003E69E7 /* MorphViewModelTests.swift */,
+				5440981F2DB36D43003E69E7 /* CustomPathViewModelTests.swift */,
+			);
+			path = GestureAnimatorInternalTests;
+			sourceTree = "<group>";
+		};
+		544098212DB3701E003E69E7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				544098222DB37048003E69E7 /* GestureAnimator */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		544098222DB37048003E69E7 /* GestureAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				544097A32DB2D4C3003E69E7 /* Core */,
+				5440977B2DB2D495003E69E7 /* ContentView.swift */,
+				544097CF2DB2D80A003E69E7 /* Examples */,
+			);
+			path = GestureAnimator;
+			sourceTree = "<group>";
+		};
+		54E1FE342DB3744E00E10987 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				544097892DB2D497003E69E7 /* GestureAnimatorTests */,
+				544098162DB36CDB003E69E7 /* GestureAnimatorInternalTests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +372,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544098152DB36B22003E69E7 /* README.md in Resources */,
 				544097812DB2D497003E69E7 /* Preview Assets.xcassets in Resources */,
 				5440977E2DB2D497003E69E7 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +399,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5440980C2DB35C6D003E69E7 /* GestureGalleryView.swift in Sources */,
+				544097C02DB2D68E003E69E7 /* DragEffect.swift in Sources */,
+				544097EF2DB35753003E69E7 /* DragViewModel.swift in Sources */,
+				544098042DB35AF1003E69E7 /* CustomPathEffect.swift in Sources */,
+				5440980E2DB3679C003E69E7 /* MorphDemoView.swift in Sources */,
+				544098072DB35B41003E69E7 /* CustomPathViewModel.swift in Sources */,
+				544097F62DB358AE003E69E7 /* RotateEffect.swift in Sources */,
 				5440977C2DB2D495003E69E7 /* ContentView.swift in Sources */,
+				544098102DB368E7003E69E7 /* GestureAnimationState.swift in Sources */,
+				544097BB2DB2D623003E69E7 /* ZoomEffect.swift in Sources */,
 				5440977A2DB2D495003E69E7 /* GestureAnimatorApp.swift in Sources */,
+				544097EB2DB347F3003E69E7 /* ZoomViewModel.swift in Sources */,
+				544097FF2DB35A4D003E69E7 /* MorphViewModel.swift in Sources */,
+				544097F82DB358CD003E69E7 /* RotateViewModel.swift in Sources */,
+				544097FD2DB35A1B003E69E7 /* MorphEffect.swift in Sources */,
+				544097AA2DB2D553003E69E7 /* GestureAnimatable.swift in Sources */,
+				544097F32DB3581F003E69E7 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +423,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5440978B2DB2D497003E69E7 /* GestureAnimatorTests.swift in Sources */,
+				5440981A2DB36D05003E69E7 /* DragViewModelTests.swift in Sources */,
+				544097FA2DB35910003E69E7 /* RotateGestureTests.swift in Sources */,
+				544098092DB35BDB003E69E7 /* CustomPathTests.swift in Sources */,
+				544097ED2DB348D9003E69E7 /* ZoomGestureTests.swift in Sources */,
+				544098202DB36D43003E69E7 /* CustomPathViewModelTests.swift in Sources */,
+				5440981C2DB36D17003E69E7 /* RotateViewModelTests.swift in Sources */,
+				544098012DB35A7E003E69E7 /* MorphGestureTests.swift in Sources */,
+				544098182DB36CF5003E69E7 /* ZoomViewModelTests.swift in Sources */,
+				544097F12DB35790003E69E7 /* DragGestureTests.swift in Sources */,
+				5440981E2DB36D2F003E69E7 /* MorphViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +440,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				544097952DB2D497003E69E7 /* GestureAnimatorUITests.swift in Sources */,
-				544097972DB2D497003E69E7 /* GestureAnimatorUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
